@@ -69,8 +69,8 @@ nav ul li a {
     font-weight: 700;
     font-style: normal;
     display: inline-flex;
-    position: relative;
-    bottom: 3.5rem;
+    /* position: relative;
+    bottom: 3.5rem; */
 }
 
 #Inicio img {
@@ -686,7 +686,7 @@ svg {
         font-style: normal;
         display: inline-flex;
         position: relative;
-        bottom: 4rem;
+        top:  1rem;
     }
 
     .registrarse1 {
@@ -878,7 +878,7 @@ svg {
         font-style: normal;
         display: inline-flex;
         position: relative;
-        bottom: 4rem;
+        top: 1rem;
     }
 
 

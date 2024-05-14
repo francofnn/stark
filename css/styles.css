@@ -20,13 +20,20 @@ html {
 
 body {
     overflow-x: hidden;
+    position: relative;
+    padding-bottom: 13rem;
+    min-height: 100vh;
 }
 
 header nav ul li a:hover,
 footer nav ul li a:hover {
     color: #810281;
 }
-
+.final {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+}
 /* inicio de header */
 header {
     background-color: #facbfa

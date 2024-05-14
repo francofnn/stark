@@ -29,11 +29,13 @@ header nav ul li a:hover,
 footer nav ul li a:hover {
     color: #810281;
 }
+
 .final {
         position: absolute;
         bottom: 0;
         width: 100%;
 }
+
 /* inicio de header */
 header {
     background-color: #facbfa
@@ -86,7 +88,6 @@ nav ul li a {
     margin-left: 2rem;
     padding: 2rem;
 }
-
 /* final de header */
 
 /* inicio home page */
@@ -153,7 +154,6 @@ nav ul li a {
     height: 5rem;
     background-color: #facbfa;
 }
-
 /* final home page */
 
 /* inicio informacion */
@@ -236,7 +236,6 @@ nav ul li a {
     margin-right: 1rem;
     margin-left: 0.5rem;
 }
-
 /* final informacion */
 
 /* inicio acceso*/
@@ -320,7 +319,6 @@ nav ul li a {
     left: 111rem;
     bottom: 60rem;
 }
-
 /* final acceso */
 
 /* inicio contacto*/
@@ -419,7 +417,6 @@ nav ul li a {
 .soporte h4 {
     margin-left: 22rem;
 }
-
 /* final contacto */
 
 /* inicio mi cuenta*/
@@ -509,7 +506,6 @@ nav ul li a {
     top: 3rem;
 }
 
-
 .der {
     border-radius: 20px;
     width: 70rem;
@@ -566,7 +562,6 @@ nav ul li a {
 .btn li a {
     color: black;
 }
-
 /* final mi cuenta */
 
 /* footer para todas las html iguales*/
@@ -614,7 +609,6 @@ footer {
     text-align: justify;
 }
 
-
 .final ul {
     display: flex;
     align-items: center;
@@ -654,7 +648,7 @@ svg {
 .final p {
     margin-inline-start: 68rem;
 }
-
+/* Final footer para todas las html iguales*/
 
 
 
@@ -835,62 +829,67 @@ svg {
         display: block;
         margin: auto;
         position: relative;
-        bottom: 2rem;
+        bottom: 3.5rem;
     }
 
     .contacto section h3 {
         font-size: 3rem;
         position: relative;
         text-align: center;
-        bottom: 1rem;
+        bottom: 3.9rem;
     }
 
     .contacto section p {
         position: relative;
         text-align: center;
-        bottom: 1rem;
+        bottom: 4.2rem;
     }
 
     .envianos {
         display: block;
         position: relative;
-        margin-inline-start: 15rem;
+        margin-inline-start: 1rem;
     }
 
     .envianos img {
         margin-left: 20rem;
         position: relative;
-        bottom: 6.5rem;
+        bottom: 10rem;
     }
 
     .envianos h4 {
         margin-left: 12rem;
         position: relative;
-        bottom: 7rem;
+        bottom: 8.5rem;
     }
 
     .envianos p {
         position: relative;
-        bottom: 7rem;
+        bottom: 8rem;
     }
 
     .soporte {
         display: block;
         position: relative;
-        margin-inline-start: 9rem;
-        top: 1rem;
+        margin-inline-start: 25rem;
+        bottom: 16rem;
     }
 
     .soporte img {
-        margin-left: 26rem;
+        margin-left: 30rem;
     }
 
     .soporte h4 {
-        margin-left: 24.5rem;
+        margin-left: 29rem;
+        position: relative;
+        top: 1.7rem;
     }
 
     .soporte p {
-        margin-right: 5rem;
+        margin-right: 29rem;
+        position: relative;
+        left: 24rem;
+        top: 2.5rem;
     }
 
     footer nav .contactanos h5 {
@@ -951,7 +950,7 @@ svg {
 
     header .menu {
         list-style-type: none;
-        font-size: 3rem;
+        font-size: 2rem;
         font-family: "Poppins", sans-serif;
         font-weight: 700;
         font-style: normal;
@@ -1023,7 +1022,7 @@ svg {
     }
 
     #Contactanos p {
-        font-size: 2rem;
+        font-size: 1.7rem;
         text-align: center;
         position: relative;
         bottom: 7rem;
@@ -1037,13 +1036,14 @@ svg {
     }
 
     .contacto section h3 {
-        font-size: 2.5rem;
+        font-size: 1.7rem;
         position: relative;
         text-align: center;
-        bottom: 6.5rem;
+        bottom: 5.7rem;
     }
 
     .contacto section p {
+        font-size: 1rem;
         position: relative;
         text-align: center;
         bottom: 6rem;
@@ -1058,26 +1058,28 @@ svg {
     .envianos img {
         margin-left: 12rem;
         position: relative;
-        bottom: 12rem;
+        bottom: 13.6rem;
     }
 
     .envianos h4 {
-        margin-left: 4rem;
+        font-size: 1.5rem;
+        margin-left: 7rem;
         position: relative;
-        bottom: 12rem;
+        bottom: 13.5rem;
     }
 
     .envianos p {
-        margin-right: 1.5rem;
+        font-size: 0.9rem;
+        margin-right: 2rem;
         position: relative;
-        bottom: 12rem;
+        bottom: 14rem;
     }
 
     .soporte {
         display: block;
         position: relative;
         margin-inline-start: 1rem;
-        bottom: 3.5rem;
+        bottom: 8rem;
     }
 
     .soporte img {
@@ -1085,12 +1087,16 @@ svg {
     }
 
     .soporte h4 {
-        margin-left: 11rem;
+        font-size: 1.5rem;
+        margin-left: 11.5rem;
     }
 
     .soporte p {
-        margin-right: 2rem;
-        margin-left: 2rem;
+        position: relative;
+        bottom: 0.5rem;
+        font-size: 1rem;
+        margin-right: 4rem;
+        margin-left: 4rem;
     }
 
     footer nav .contactanos h5 {

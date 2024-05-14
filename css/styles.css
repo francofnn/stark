@@ -38,6 +38,7 @@ header {
     font-weight: 400;
     font-style: normal;
     text-align: right;
+    margin-right: 2rem;
 }
 
 a {
@@ -759,7 +760,9 @@ svg {
     }
 
     .final ul li {
-        margin-inline-start: 1rem;
+        display: inline-flex;
+        position: relative;
+        right: 5rem;
         font-size: 3rem;
     }
 
@@ -953,7 +956,9 @@ svg {
     }
 
     .final ul li {
-        margin-inline-start: 1rem;
+        display: inline-flex;
+        position: relative;
+        right: 1.5rem;
         font-size: 1rem;
     }
 
@@ -1090,3 +1095,4 @@ svg {
         font-size: 1rem;
     }
 }
+/*    Final mediaquery mobil        */

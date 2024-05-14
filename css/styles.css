@@ -682,6 +682,7 @@ svg {
         top: 1rem;
     }
 
+
     .promo P {
         font-size: 2rem;
         font-family: "Poppins", sans-serif;
@@ -871,10 +872,10 @@ svg {
     .envianos p {
         position: relative;
         bottom: 8rem;
+        right: 1.5rem ;
     }
 
     .soporte {
-        display: block;
         position: relative;
         margin-inline-start: 25rem;
         bottom: 16rem;

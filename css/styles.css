@@ -787,6 +787,7 @@ svg {
         margin-inline-start: 3rem;
         font-size: 2.3rem;
     }
+
     /* final home page */
 
     /* inicio de contacto */
@@ -897,6 +898,7 @@ svg {
         font-size: 1.3rem;
     }
 }
+
 /* final de contacto */
 
 /*    Final mediaquery tablet        */
@@ -924,7 +926,7 @@ svg {
         font-style: normal;
         display: inline-flex;
         position: relative;
-        top:  1rem;
+        top: 1rem;
     }
 
     .registrarse1 {
@@ -983,6 +985,7 @@ svg {
         margin-inline-start: 1rem;
         font-size: 1rem;
     }
+
     /* final home page */
 
     /* inicio de contacto */
@@ -1095,4 +1098,5 @@ svg {
         font-size: 1rem;
     }
 }
+
 /*    Final mediaquery mobil        */

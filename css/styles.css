@@ -69,8 +69,6 @@ nav ul li a {
     font-weight: 700;
     font-style: normal;
     display: inline-flex;
-    /* position: relative;
-    bottom: 3.5rem; */
 }
 
 #Inicio img {
@@ -652,213 +650,7 @@ svg {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*          mobil           */
-@media screen and (min-width: 320px)and (max-width: 767px) {
-
-    /* home page */
-    #Inicio img {
-        width: 10rem;
-        height: 10rem;
-        margin-left: 5rem;
-        padding: 1rem;
-        box-sizing: content-box;
-    }
-
-    #Inicio h1 {
-        font-size: 3rem;
-        color: #810281;
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        display: inline-flex;
-        position: relative;
-        top:  1rem;
-    }
-
-    .registrarse1 {
-        font-size: 2rem;
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        text-align: center;
-    }
-
-    header .menu li {
-        display: block;
-        margin-right: 8rem;
-    }
-
-    header .menu {
-        list-style-type: none;
-        font-size: 3rem;
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        text-align: center;
-    }
-
-    .final ul {
-        font-size: 1rem;
-        font-family: "Poppins", sans-serif;
-        font-weight: 300;
-    }
-
-    .final ul li {
-        margin-inline-start: 1rem;
-        font-size: 1rem;
-    }
-
-    .final nav {
-        display: block;
-        justify-content: center;
-    }
-
-    footer nav .contactanos h2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 8rem;
-    }
-
-    .contactanosSvg {
-        display: flex;
-        justify-content: center;
-    }
-
-    .final p {
-        margin-inline-start: 1rem;
-        font-size: 1rem;
-    }
-
-    /* final home page */
-
-    /* inicio de contacto */
-
-    #Inicio img {
-        width: 10rem;
-        height: 10rem;
-        margin-left: 5rem;
-        padding: 1rem;
-        box-sizing: content-box;
-    }
-
-    #Inicio h1 {
-        font-size: 3rem;
-        color: #810281;
-        font-family: "Poppins", sans-serif;
-        font-weight: 700;
-        font-style: normal;
-        display: inline-flex;
-        position: relative;
-        bottom: 4rem;
-    }
-
-    #Contactanos h2 {
-        font-size: 2rem;
-        text-align: center;
-        position: relative;
-        top: 3rem;
-    }
-
-    #Contactanos p {
-        font-size: 2rem;
-        text-align: center;
-        position: relative;
-        bottom: 7rem;
-    }
-
-    .flecha {
-        display: block;
-        margin: auto;
-        position: relative;
-        bottom: 6rem;
-    }
-
-    .contacto section h3 {
-        font-size: 2.5rem;
-        position: relative;
-        text-align: center;
-        bottom: 6.5rem;
-    }
-
-    .contacto section p {
-        position: relative;
-        text-align: center;
-        bottom: 6rem;
-    }
-
-    .envianos {
-        display: block;
-        position: relative;
-        margin-inline-start: 1rem;
-    }
-
-    .envianos img {
-        margin-left: 12rem;
-        position: relative;
-        bottom: 12rem;
-    }
-
-    .envianos h4 {
-        margin-left: 4rem;
-        position: relative;
-        bottom: 12rem;
-    }
-
-    .envianos p {
-        margin-right: 1.5rem;
-        position: relative;
-        bottom: 12rem;
-    }
-
-    .soporte {
-        display: block;
-        position: relative;
-        margin-inline-start: 1rem;
-        bottom: 3.5rem;
-    }
-
-    .soporte img {
-        margin-left: 12rem;
-    }
-
-    .soporte h4 {
-        margin-left: 11rem;
-    }
-
-    .soporte p {
-        margin-right: 2rem;
-        margin-left: 2rem;
-    }
-
-    footer nav .contactanos h5 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin-left: 8rem;
-    }
-
-    .final ul li {
-        margin-inline-start: 1.7rem;
-        font-size: 1rem;
-    }
-}
-
-/*            tablet            */
+/*    mediaquery  tablet                 */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
     /* home page */
@@ -992,12 +784,9 @@ svg {
         margin-inline-start: 3rem;
         font-size: 2.3rem;
     }
-
-
     /* final home page */
 
     /* inicio de contacto */
-
     #Inicio img {
         width: 10rem;
         height: 10rem;
@@ -1072,7 +861,6 @@ svg {
     .envianos p {
         position: relative;
         bottom: 7rem;
-
     }
 
     .soporte {
@@ -1108,4 +896,197 @@ svg {
 }
 /* final de contacto */
 
-@media screen and (min-width: 1024px) {}
+/*    Final mediaquery tablet        */
+
+
+
+/*    Inicio mediaquery  mobil       */
+
+@media screen and (min-width: 320px)and (max-width: 767px) {
+
+    /* home page */
+    #Inicio img {
+        width: 10rem;
+        height: 10rem;
+        margin-left: 5rem;
+        padding: 1rem;
+        box-sizing: content-box;
+    }
+
+    #Inicio h1 {
+        font-size: 3rem;
+        color: #810281;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        display: inline-flex;
+        position: relative;
+        top:  1rem;
+    }
+
+    .registrarse1 {
+        font-size: 2rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+    }
+
+    header .menu li {
+        display: block;
+        margin-right: 8rem;
+    }
+
+    header .menu {
+        list-style-type: none;
+        font-size: 3rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .final ul {
+        font-size: 1rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+    }
+
+    .final ul li {
+        margin-inline-start: 1rem;
+        font-size: 1rem;
+    }
+
+    .final nav {
+        display: block;
+        justify-content: center;
+    }
+
+    footer nav .contactanos h2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 8rem;
+    }
+
+    .contactanosSvg {
+        display: flex;
+        justify-content: center;
+    }
+
+    .final p {
+        margin-inline-start: 1rem;
+        font-size: 1rem;
+    }
+    /* final home page */
+
+    /* inicio de contacto */
+    #Inicio img {
+        width: 10rem;
+        height: 10rem;
+        margin-left: 5rem;
+        padding: 1rem;
+        box-sizing: content-box;
+    }
+
+    #Inicio h1 {
+        font-size: 3rem;
+        color: #810281;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        display: inline-flex;
+        position: relative;
+        bottom: 4rem;
+    }
+
+    #Contactanos h2 {
+        font-size: 2rem;
+        text-align: center;
+        position: relative;
+        top: 3rem;
+    }
+
+    #Contactanos p {
+        font-size: 2rem;
+        text-align: center;
+        position: relative;
+        bottom: 7rem;
+    }
+
+    .flecha {
+        display: block;
+        margin: auto;
+        position: relative;
+        bottom: 6rem;
+    }
+
+    .contacto section h3 {
+        font-size: 2.5rem;
+        position: relative;
+        text-align: center;
+        bottom: 6.5rem;
+    }
+
+    .contacto section p {
+        position: relative;
+        text-align: center;
+        bottom: 6rem;
+    }
+
+    .envianos {
+        display: block;
+        position: relative;
+        margin-inline-start: 1rem;
+    }
+
+    .envianos img {
+        margin-left: 12rem;
+        position: relative;
+        bottom: 12rem;
+    }
+
+    .envianos h4 {
+        margin-left: 4rem;
+        position: relative;
+        bottom: 12rem;
+    }
+
+    .envianos p {
+        margin-right: 1.5rem;
+        position: relative;
+        bottom: 12rem;
+    }
+
+    .soporte {
+        display: block;
+        position: relative;
+        margin-inline-start: 1rem;
+        bottom: 3.5rem;
+    }
+
+    .soporte img {
+        margin-left: 12rem;
+    }
+
+    .soporte h4 {
+        margin-left: 11rem;
+    }
+
+    .soporte p {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    footer nav .contactanos h5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 8rem;
+    }
+
+    .final ul li {
+        margin-inline-start: 1.7rem;
+        font-size: 1rem;
+    }
+}

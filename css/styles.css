@@ -28,7 +28,7 @@ footer nav ul li a:hover {
 
 /* inicio de header */
 header {
-  background-color: #facbfa;
+  background-image: linear-gradient(to right top, #810281, #983897, #af5bae, #c57dc4, #dc9edb, #d19acc, #c696bd, #ba92b0, #8a6b7e, #5c4751, #302629, #000000);
 }
 
 .registrarse1 {
@@ -573,7 +573,7 @@ nav ul li a {
 /* final mi cuenta */
 /* footer para todas las html iguales*/
 footer {
-  background-color: #facbfa;
+  background-image: linear-gradient(to right top, #810281, #983897, #af5bae, #c57dc4, #dc9edb, #d19acc, #c696bd, #ba92b0, #8a6b7e, #5c4751, #302629, #000000);
 }
 footer nav .seguinos {
   display: flex;

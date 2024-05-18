@@ -1,0 +1,492 @@
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    /* home page */
+    #Inicio {
+        img {
+        width: 10rem;
+        height: 10rem;
+        margin-left: 5rem;
+        padding: 1rem;
+        box-sizing: content-box;
+    }
+    h1 {
+        font-size: 3rem;
+        color: #810281;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        display: inline-flex;
+        position: relative;
+        top: 1rem;
+    }
+}
+}
+
+.promo P {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: justify;
+}
+
+.mujer {
+    position: relative;
+    bottom: 32rem;
+    right: 10rem;
+    color: white;
+    border-radius: 20px;
+    width: 37rem;
+    height: 3rem;
+    background-color: #810281;
+}
+
+.mujer1 {
+    position: relative;
+    bottom: 32rem;
+    right: 5rem;
+    color: #810281;
+    border-radius: 20px;
+    width: 20rem;
+    height: 3rem;
+    background-color: #facbfa;
+}
+
+.entrenador {
+    position: relative;
+    bottom: 5rem;
+    right: 8rem;
+    color: white;
+    border-radius: 20px;
+    width: 35rem;
+    height: 3rem;
+    background-color: #810281;
+}   
+
+.entrenador1 {
+    position: relative;
+    bottom: 5.5rem;
+    right: 1rem;
+    color: #810281;
+    border-radius: 20px;
+    width: 20rem;
+    height: 3rem;
+    background-color: #facbfa;
+}
+
+header {
+    .menu {
+        list-style-type: none;
+        font-size: 3rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: start;
+        li {
+            display: inline;
+            margin-inline-start: 0.5rem;
+        }
+    }
+}
+
+.final {
+    nav {
+        display: block;
+        justify-content: center;
+    }
+    ul {
+        font-size: 1rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        li {
+            display: inline-flex;
+            position: relative;
+            right: 5rem;
+            font-size: 3rem;
+        }
+    }
+    p {
+        margin-inline-start: 3rem;
+        font-size: 2.3rem;
+    }
+}
+
+footer {
+    nav {
+        .contactanos {
+            h2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 30rem;
+            }
+        }
+    }
+}
+
+.contactanosSvg {
+    display: flex;
+    justify-content: center;
+}
+/* final home page */
+
+/* inicio de contacto */
+#Inicio {
+    img {
+        width: 10rem;
+        height: 10rem;
+        margin-left: 5rem;
+        padding: 1rem;
+        box-sizing: content-box;
+    }
+    h1 {
+        font-size: 3rem;
+        color: #810281;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        display: inline-flex;
+        position: relative;
+        bottom: 4rem;
+    }
+}
+
+#Contactanos {
+    h2 {
+        font-size: 5rem;
+        text-align: center;
+        position: relative;
+        top: 10rem;
+    }
+    p {
+        font-size: 2rem;
+        text-align: center;
+        position: relative;
+        bottom: 5rem;
+    }
+}
+
+.flecha {
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 3.5rem;
+}
+
+.contacto {
+    section {
+        p {
+            position: relative;
+            text-align: center;
+            bottom: 4.2rem;
+        }
+    }
+}
+
+.envianos {
+    display: block;
+    position: relative;
+    margin-inline-start: 1rem;
+    img {
+        margin-left: 20rem;
+        position: relative;
+        bottom: 10rem;
+    }
+    h4 {
+        margin-left: 12rem;
+        position: relative;
+        bottom: 8.5rem;
+    }
+    p {
+        position: relative;
+        bottom: 8rem;
+        right: 1.5rem ;
+    }
+}
+
+.soporte {
+    position: relative;
+    margin-inline-start: 25rem;
+    bottom: 16rem;
+    img {
+        margin-left: 30rem;
+    }
+    h4 {
+        margin-left: 29rem;
+        position: relative;
+        top: 1.7rem;
+    }
+    p {
+        margin-right: 29rem;
+        position: relative;
+        left: 24rem;
+        top: 2.5rem;
+    }
+}
+
+footer {
+    nav {
+        .contactanos {
+            h5 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 30rem;
+            }
+        }
+    }
+}
+
+.final {
+    ul {
+        li {
+            margin-inline-start: 9rem;
+            font-size: 1.3rem;
+        }
+    }
+}
+/* final de contacto */ /*    Final mediaquery tablet        */
+
+/*    Inicio mediaquery  mobil       */
+@media screen and (min-width: 320px)and (max-width: 767px) {
+    /* home page */
+    #Inicio {
+        img {
+            width: 10rem;
+            height: 10rem;
+            margin-left: 5rem;
+            padding: 1rem;
+            box-sizing: content-box;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #810281;
+            font-family: "Poppins", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            display: inline-flex;
+            position: relative;
+            top: 1rem;
+        }
+    }
+}
+
+.registrarse1 {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+header {
+    .menu {
+        list-style-type: none;
+        font-size: 2rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        li {
+            display: block;
+            margin-right: 8rem;
+        }
+    }
+}
+
+.final {
+    nav {
+        display: block;
+        justify-content: center;
+    }
+    ul {
+        font-size: 1rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        li {
+            display: inline-flex;
+            position: relative;
+            right: 1.5rem;
+            font-size: 1rem;
+        }
+    }
+    p {
+        margin-inline-start: 1rem;
+        font-size: 1rem;
+    }
+}
+
+footer {
+    nav {
+        .contactanos {
+            h2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 8rem;
+            }
+        }
+    }
+} 
+
+.contactanosSvg {
+    display: flex;
+    justify-content: center;
+}
+/* final home page */
+
+/* inicio de contacto */
+#Inicio {
+    h1 {
+        font-size: 3rem;
+        color: #810281;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        display: inline-flex;
+        position: relative;
+        bottom: 4rem;
+    }
+    h2 {
+        font-size: 2rem;
+        text-align: center;
+        position: relative;
+        top: 3rem;
+    }
+}
+
+#Contactanos {
+    p {
+        font-size: 1.7rem;
+        text-align: center;
+        position: relative;
+        bottom: 7rem;
+    }
+}
+
+.flecha {
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 6rem;
+}
+
+
+.contacto {
+    section {
+        h3 {
+            font-size: 1.7rem;
+            position: relative;
+            text-align: center;
+            bottom: 5.7rem;
+        }
+        p {
+            font-size: 1rem;
+            position: relative;
+            text-align: center;
+            bottom: 6rem;
+        }
+    }
+}
+
+.envianos {
+    display: block;
+    position: relative;
+    margin-inline-start: 1rem;
+    img {
+        margin-left: 12rem;
+        position: relative;
+        bottom: 13.6rem;
+    }
+    h4 {
+        font-size: 1.5rem;
+        margin-left: 7rem;
+        position: relative;
+        bottom: 13.5rem;
+    }
+    p {
+        font-size: 0.9rem;
+        margin-right: 2rem;
+        position: relative;
+        bottom: 14rem;
+    }
+}
+
+.soporte {
+    display: block;
+    position: relative;
+    margin-inline-start: 1rem;
+    bottom: 8rem;
+    img {
+        margin-left: 12rem;
+    }
+    h4 {
+        font-size: 1.5rem;
+        margin-left: 11.5rem;
+    }
+    p {
+        position: relative;
+        bottom: 0.5rem;
+        font-size: 1rem;
+        margin-right: 4rem;
+        margin-left: 4rem;
+    }
+}
+
+.final {
+    ul {
+        li {
+            margin-inline-start: 1.7rem;
+            font-size: 1rem;
+        }
+    }
+}
+
+footer {
+    nav {
+        .contactanos {
+            h5 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-left: 8rem;
+            }
+        }
+    }
+}
+/*    Final mediaquery mobil        */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

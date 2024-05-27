@@ -1,0 +1,56 @@
+
+/* inicio home page */
+
+.promo P {
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: justify;
+}
+
+.mujer {
+    position: relative;
+    bottom: 90rem;
+    right: 15rem;
+    color:$blanco;
+    border-radius: 20px;
+    width: 56rem;
+    height: 5rem;
+    background-color: $violeta;
+}
+
+.mujer1 {
+    position: relative;
+    bottom: 90rem;
+    right: 5rem;
+    color:$violeta;
+    border-radius: 20px;
+    width: 30rem;
+    height: 5rem;
+    background-color: $violetaClaro;
+}
+
+.entrenador {
+    position: relative;
+    bottom: 80rem;
+    right: 25rem;
+    color: $blanco;
+    border-radius: 20px;
+    width: 52rem;
+    height: 5rem;
+    background-color: $violeta;
+}
+
+.entrenador1 {
+    position: relative;
+    bottom: 80rem;
+    right: 15rem;
+    color:$violeta;
+    border-radius: 20px;
+    width: 30rem;
+    height: 5rem;
+    background-color: $violetaClaro;
+}
+
+/* final home page */

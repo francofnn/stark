@@ -1,0 +1,131 @@
+
+/* inicio mi cuenta*/
+
+#Micuenta {
+    h2 {
+        font-size: 3rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        padding: 4rem;
+    }
+    p {
+        font-size: 1.5rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+        text-align: justify;
+        display: block;
+        margin: 2rem;
+    }
+}
+
+.cuenta {
+    h3 {
+        font-size: 3rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: justify;
+    }
+    p {
+        font-size: 1.5rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: justify;
+    }
+    label {
+        font-size: 1.5rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: justify;
+    }
+    ul {
+        font-size: 1.5rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: justify;
+    }
+}
+
+.izq {
+    border-radius: 20px;
+    width: 70rem;
+    height: 30rem;
+    background-color: $blanco;
+    margin-left: 3rem;
+    box-shadow: 0px 0px 1rem $violeta;
+    margin-left: 20rem;
+    position: relative;
+    top: 10rem;
+    h3 {
+        margin-left: 22rem;
+    }
+    p {
+        margin-left: 2rem;
+        margin-right: 2rem;
+        position: relative;
+        top: 1rem;
+    }
+    .btn {
+        margin-left: 27rem;
+        position: relative;
+        top: 3rem;
+    }
+}
+
+.der {
+    border-radius: 20px;
+    width: 70rem;
+    height: 30rem;
+    background-color:$blanco;
+    margin-left: 3rem;
+    box-shadow: 0px 0px 1rem $violeta;
+    display: flex;
+    flex-direction: column;
+    margin-left: 107rem;
+    position: relative;
+    bottom: 20rem;
+    h3 {
+        margin-left: 19rem;
+    }
+    .btn {
+        margin-left: 27rem;
+        position: relative;
+        top: 2rem;
+    }
+    label {
+        margin-left: 28rem;
+        position: relative;
+        top: 1rem;
+    }
+    input {
+        margin-left: 5rem;
+        margin-right: 5rem;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+.btn {
+    border-radius: 10%;
+    width: 13.5rem;
+    height: 5rem;
+    background-color: $violetaClaro;
+    padding: 1.5rem;
+    list-style-type: none;
+    li {
+        a { 
+            color:$negro;
+            span {
+                margin-left: 0.5rem;
+            }
+        }
+    }
+}
+
+/* final mi cuenta */

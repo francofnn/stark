@@ -1,0 +1,96 @@
+
+/* inicio contacto */
+
+#Contactanos {
+    h2 {
+        font-size: 10rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        text-align: center;
+        position: relative;
+        top: 30rem;
+        color:$blanco;
+    }
+    p {
+        font-size: 3rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+        position: relative;
+        bottom: 10rem;
+        color: $blanco;
+    }
+}
+
+.flecha {
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 4rem;
+}
+
+.contacto {
+    h3 {
+        font-size: 3rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: justify;
+    }
+    p {
+        font-size: 1.5rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: justify;
+    }
+    h4 {
+        font-size: 2rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-align: justify;
+    }
+    section {
+        h3 {
+            position: relative;
+            text-align: center;
+        }
+        p {
+            position: relative;
+            text-align: center;
+        }
+    }
+}
+
+.envianos {
+    margin-left: 40rem;
+    position: relative;
+    top: 7rem;
+    img {
+        margin-left: 20rem;
+    }
+    h4 {
+        margin-left: 12rem;
+    }
+    p {
+        margin-left: 2rem;
+    }
+}
+
+.soporte {
+    display: block;
+    margin-left: 100rem;
+    position: relative;
+    bottom: 5rem;
+    img {
+        margin-left: 23rem;
+    }
+    h4 {
+        margin-left: 22rem;
+    }
+}
+
+/* final contacto */

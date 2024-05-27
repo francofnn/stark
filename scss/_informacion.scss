@@ -1,0 +1,150 @@
+
+/* inicio informacion */
+
+#Informacion {
+    h2 {
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    padding: 4rem;
+    }
+    p {
+        font-size: 1.8rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}
+
+.cartas {
+    padding: 5rem;
+    display: flex;
+    div {
+        border-radius: 20px;
+        width: 35rem;
+        height: 30rem;
+        background-color: $blanco;
+        margin-left: 3rem;
+        box-shadow: 0px 0px 1rem $violeta;
+    }   
+        h3 {
+            font-size: 3rem;
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            text-align: justify;
+        }
+        p {
+            font-size: 1.8rem;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: justify;
+            display: flex;
+            margin-right: 1rem;
+            margin-left: 0.5rem;
+            }
+        img {
+            margin-left: 10rem;
+        }
+}
+
+.cartas1 h3 {
+    margin-left: 10rem;
+}
+
+.cartas2 h3 {
+    margin-left: 2rem;
+}
+
+.cartas3 h3 {
+    margin-left: 8rem;
+}
+
+.cartas4 h3 {
+    margin-left: 5rem;
+}
+
+.cartas5 h3 {
+    margin-left: 7rem;
+}
+
+.valiosos {
+    h2 {
+        font-size: 3rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        padding: 4rem;
+    }
+    p {
+        font-size: 1.8rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+        margin-left: 19rem;
+        margin-right: 19rem;
+    }
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr); 
+    margin-left: 8.5rem;
+    img {
+        height: 80%;
+        object-fit:cover ;
+        border-radius: 2%;
+    }
+}
+
+.galeria-uno {
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+.galeria-dos {
+    grid-column: 2/5;
+    grid-row: 1/2;
+}
+.galeria-tres {
+    grid-column: 3/5;
+    grid-row: 1/2;
+}
+.galeria-cuatro {
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.galeria-cinco {
+    grid-column: 5/5;
+    grid-row: 1/2;
+}
+.galeria-seis {
+    grid-column: 1/5;
+    grid-row: 2/2;
+}
+.galeria-siete {
+    grid-column: 2/5;
+    grid-row: 2/2;
+}
+.galeria-ocho {
+    grid-column: 3/5;
+    grid-row: 2/2;
+}
+.galeria-nueve {
+    grid-column: 4/5;
+    grid-row: 2/2;
+}
+.galeria-diez {
+    grid-column: 5/5;
+    grid-row: 2/2;
+}
+
+/* final informacion */

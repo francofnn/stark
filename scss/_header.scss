@@ -1,0 +1,67 @@
+
+/* inicio de header */
+
+header {
+    background-image:linear-gradient(to right top, #810281, #983897, #af5bae, #c57dc4, #dc9edb, #d19acc, #c696bd, #ba92b0, #8a6b7e, #5c4751, #302629, #000000);
+}
+
+header nav ul li a:hover,
+footer nav ul li a:hover {
+    color: $violeta;
+}
+
+.registrarse1 {
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+    margin-right: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    list-style-type: none;
+    font-size: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: left;
+    li {
+        display: inline;
+        margin-left: 6rem;
+    }
+}
+
+nav {
+    ul {
+        li {
+            a{
+                color: $negro;
+            }
+        }
+    }
+}
+
+#Inicio {
+    h1 {
+    font-size: 3rem;
+    color: $violeta;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: inline-flex;
+    }
+    img {
+        box-sizing: content-box;
+        width: 5rem;
+        height: 5rem;
+        margin-left: 2rem;
+        padding: 2rem;
+    }
+}
+
+/* final de header */

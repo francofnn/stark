@@ -1,0 +1,85 @@
+
+/* inicio acceso */
+
+.quienes {
+    h2 {
+        font-size: 6rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text-align: center;
+        padding: 4rem;
+    }
+    div {
+        display: block;
+        text-align: justify;
+    }
+        h3 {
+            font-size: 3rem;
+            font-family: "Poppins", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            text-align: justify;
+            
+        }
+        p {
+            font-size: 1.8rem;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: justify;
+        }
+}
+
+.cp {
+    img {
+        position: relative;
+        left: 20rem;
+    }
+    h3 {
+        position: relative;
+        left: 115rem;
+        top: 30rem;
+    }
+    p {
+        position: relative;
+        left: 90rem;
+        bottom: 50rem;
+    }
+}
+
+.pi {
+    img {
+        position: relative;
+        left: 100rem;
+    }
+    h3 {
+        position: relative;
+        top: 25rem;
+        left: 25rem;
+    }
+    p {
+        position: relative;
+        bottom: 50rem;
+        left: 10rem;
+    }
+}
+
+.ps {
+    img {
+        position: relative;
+        left: 20rem;
+    }
+    h3 {
+        position: relative;
+        left: 110rem;
+        top: 30rem;
+    }
+    p {
+        position: relative;
+        left: 111rem;
+        bottom: 60rem;
+    }
+}
+
+/* final acceso */

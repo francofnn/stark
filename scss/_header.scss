@@ -30,9 +30,23 @@ a {
     font-weight: 700;
     font-style: normal;
     text-align: left;
+        @include tablet {
+            text-align: start;
+        }
+        @include mobile {
+            font-size: 2rem;
+            text-align: center;
+        }
     li {
         display: inline;
         margin-left: 6rem;
+        @include tablet {
+            margin-inline-start: 0.5rem;
+        }
+        @include mobile {
+            display: block;
+            margin-right: 8rem;
+        }
     }
 }
 

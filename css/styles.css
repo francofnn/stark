@@ -46,9 +46,31 @@ a {
   font-style: normal;
   text-align: left;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .menu {
+    text-align: start;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .menu {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
 .menu li {
   display: inline;
   margin-left: 6rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .menu li {
+    margin-inline-start: 0.5rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .menu li {
+    display: block;
+    margin-right: 8rem;
+  }
 }
 
 nav ul li a {
@@ -80,6 +102,16 @@ nav ul li a {
   font-style: normal;
   text-align: justify;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .promo P {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .promo P {
+    font-size: 2rem;
+  }
+}
 
 .mujer {
   position: relative;
@@ -90,6 +122,14 @@ nav ul li a {
   width: 56rem;
   height: 5rem;
   background-color: #810281;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .mujer {
+    bottom: 32rem;
+    right: 10rem;
+    width: 37rem;
+    height: 3rem;
+  }
 }
 
 .mujer1 {
@@ -102,6 +142,13 @@ nav ul li a {
   height: 5rem;
   background-color: #facbfa;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .mujer1 {
+    bottom: 32rem;
+    width: 20rem;
+    height: 3rem;
+  }
+}
 
 .entrenador {
   position: relative;
@@ -113,6 +160,14 @@ nav ul li a {
   height: 5rem;
   background-color: #810281;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .entrenador {
+    bottom: 5rem;
+    right: 8rem;
+    width: 35rem;
+    height: 3rem;
+  }
+}
 
 .entrenador1 {
   position: relative;
@@ -123,6 +178,14 @@ nav ul li a {
   width: 30rem;
   height: 5rem;
   background-color: #facbfa;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .entrenador1 {
+    bottom: 5.5rem;
+    right: 1rem;
+    width: 20rem;
+    height: 3rem;
+  }
 }
 
 /* final home page */
@@ -180,22 +243,27 @@ nav ul li a {
 
 .cartas1 h3 {
   margin-left: 10rem;
+  top: 0.5rem;
 }
 
 .cartas2 h3 {
   margin-left: 2rem;
+  top: 0.5rem;
 }
 
 .cartas3 h3 {
   margin-left: 8rem;
+  top: 0.5rem;
 }
 
 .cartas4 h3 {
   margin-left: 5rem;
+  top: 0.5rem;
 }
 
 .cartas5 h3 {
   margin-left: 7rem;
+  top: 0.5rem;
 }
 
 .valiosos h2 {
@@ -365,6 +433,19 @@ nav ul li a {
   top: 30rem;
   color: white;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #Contactanos h2 {
+    font-size: 5rem;
+    top: 10rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  #Contactanos h2 {
+    top: 0.5rem;
+    color: black;
+    font-size: 3.5rem;
+  }
+}
 #Contactanos p {
   font-size: 3rem;
   font-family: "Poppins", sans-serif;
@@ -375,12 +456,34 @@ nav ul li a {
   bottom: 10rem;
   color: white;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  #Contactanos p {
+    font-size: 2rem;
+    bottom: 5rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  #Contactanos p {
+    font-size: 1.6rem;
+    bottom: 6rem;
+  }
+}
 
 .flecha {
   display: block;
   margin: auto;
   position: relative;
   bottom: 4rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .flecha {
+    bottom: 3.5rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .flecha {
+    bottom: 5.5rem;
+  }
 }
 
 .contacto h3 {
@@ -389,28 +492,54 @@ nav ul li a {
   font-weight: 700;
   font-style: normal;
   text-align: justify;
+  left: 64rem;
 }
-.contacto p {
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .contacto h3 {
+    font-size: 1.7rem;
+    position: relative;
+    text-align: center;
+    bottom: 5.1rem;
+  }
+}
+
+p {
   font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-align: justify;
 }
-.contacto h4 {
+
+h4 {
   font-size: 2rem;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
   text-align: justify;
 }
-.contacto section h3 {
+
+section h3 {
+  position: relative;
+  text-align: center;
+  bottom: 3rem;
+}
+section p {
   position: relative;
   text-align: center;
 }
-.contacto section p {
-  position: relative;
-  text-align: center;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  section p {
+    bottom: 3.5rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  section p {
+    font-size: 1.7rem;
+    position: relative;
+    text-align: center;
+    bottom: 5.7rem;
+  }
 }
 
 .envianos {
@@ -418,14 +547,69 @@ nav ul li a {
   position: relative;
   top: 7rem;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .envianos {
+    display: block;
+    position: relative;
+    margin-inline-start: 1rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .envianos {
+    display: block;
+    margin-inline-start: 1rem;
+  }
+}
 .envianos img {
   margin-left: 20rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .envianos img {
+    position: relative;
+    bottom: 10rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .envianos img {
+    margin-left: 12rem;
+    position: relative;
+    bottom: 13.6rem;
+  }
 }
 .envianos h4 {
   margin-left: 12rem;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .envianos h4 {
+    position: relative;
+    bottom: 8.5rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .envianos h4 {
+    font-size: 1.5rem;
+    margin-left: 7rem;
+    position: relative;
+    bottom: 13.5rem;
+  }
+}
 .envianos p {
   margin-left: 2rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .envianos p {
+    position: relative;
+    bottom: 8rem;
+    right: 2rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .envianos p {
+    font-size: 0.9rem;
+    margin-right: 2rem;
+    position: relative;
+    bottom: 14rem;
+  }
 }
 
 .soporte {
@@ -434,11 +618,65 @@ nav ul li a {
   position: relative;
   bottom: 5rem;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .soporte {
+    margin-inline-start: 25rem;
+    bottom: 16rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .soporte {
+    display: block;
+    position: relative;
+    margin-inline-start: 1rem;
+    bottom: 8rem;
+  }
+}
 .soporte img {
   margin-left: 23rem;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .soporte img {
+    margin-left: 30rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .soporte img {
+    margin-left: 12rem;
+  }
+}
 .soporte h4 {
   margin-left: 22rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .soporte h4 {
+    margin-left: 29rem;
+    position: relative;
+    top: 1.7rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .soporte h4 {
+    font-size: 1.5rem;
+    margin-left: 11.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .soporte p {
+    margin-right: 29rem;
+    position: relative;
+    left: 24rem;
+    top: 2.5rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) and (min-width: 320px) and (max-width: 767px) {
+  .soporte {
+    position: relative;
+    bottom: 0.5rem;
+    font-size: 1rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
 }
 
 /* final contacto */
@@ -581,10 +819,28 @@ footer nav .contactanos {
   justify-content: center;
   margin: 1rem;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  footer nav .contactanos h2 {
+    margin-left: 30rem;
+  }
+  footer nav .contactanos h5 {
+    margin-left: 30rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  footer nav .contactanos {
+    margin-left: 9rem;
+  }
+}
 
 .contactanosSvg {
   display: flex;
   justify-content: center;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .contactanosSvg {
+    margin-right: 8rem;
+  }
 }
 
 svg {
@@ -636,12 +892,56 @@ svg {
   display: flex;
   align-items: center;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .final ul {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .final ul li {
+    display: inline-flex;
+    position: relative;
+    left: 14rem;
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .final ul {
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+  }
+  .final ul li {
+    margin-inline-start: 50rem;
+  }
+}
 .final nav {
   display: flex;
   justify-content: center;
 }
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .final nav {
+    display: block;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .final nav {
+    display: block;
+  }
+}
 .final p {
   margin-inline-start: 68rem;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .final p {
+    margin-inline-start: 3rem;
+    font-size: 2.3rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .final p {
+    margin-inline-start: 1rem;
+    font-size: 1rem;
+  }
 }
 
 /* Final footer para todas las html iguales *//*# sourceMappingURL=styles.css.map */

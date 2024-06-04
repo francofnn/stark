@@ -15,13 +15,28 @@ footer {
             flex-direction: column;
             justify-content: center;
             margin: 1rem;
+            @include tablet {
+                h2{
+                    margin-left: 30rem;
+                }
+                h5 {
+                    margin-left: 30rem;
+                }
+            }
+            @include mobile {
+                margin-left: 9rem;
+                }
+            }
         }
     }
-}
+
 
 .contactanosSvg {
     display: flex;
     justify-content: center;
+    @include mobile {
+        margin-right: 8rem;
+    }
 }
 
 svg {
@@ -71,13 +86,45 @@ svg {
     ul {
         display: flex;
         align-items: center;
+        @include tablet {
+            font-size: 1rem;
+            font-weight: 300;
+            li {
+                display: inline-flex;
+                position: relative;
+                left: 14rem;
+                font-size: 2rem;
+            }
+        }
+        @include mobile {
+            font-size: 1rem;
+            font-family: "Poppins", sans-serif;
+            font-weight: 300;
+            li {
+                margin-inline-start: 50rem;
+            }
+        }
     }
     nav {
         display: flex;
         justify-content: center;
+        @include tablet {
+            display: block;
+        }
+        @include mobile {
+            display: block;
+        }
     }
     p {
         margin-inline-start: 68rem;
+            @include tablet {
+                margin-inline-start: 3rem;
+                font-size: 2.3rem;
+            }
+            @include mobile {
+                margin-inline-start: 1rem;
+                font-size: 1rem;
+            }
     }
 }
 
